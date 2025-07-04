@@ -4,13 +4,13 @@
 // \brief  cpp file for TMS570UartDriver component implementation class
 // ======================================================================
 
-#include "Drivers/TMS570UartDriver/TMS570UartDriver.hpp"
+#include "Drv/TMS570UartDriver/TMS570UartDriver.hpp"
 extern "C" {
   #include "HL_sci.h"         // HALCoGen sci driver
   #include "HL_sys_common.h"
 }
 
-namespace Drivers {
+namespace Drv {
 
 // ----------------------------------------------------------------------
 // Component construction and destruction

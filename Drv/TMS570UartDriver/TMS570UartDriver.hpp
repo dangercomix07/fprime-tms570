@@ -7,9 +7,9 @@
 #ifndef Drivers_TMS570UartDriver_HPP
 #define Drivers_TMS570UartDriver_HPP
 
-#include "Drivers/TMS570UartDriver/TMS570UartDriverComponentAc.hpp"
+#include "Drv/TMS570UartDriver/TMS570UartDriverComponentAc.hpp"
 
-namespace Drivers {
+namespace Drv {
 
 class TMS570UartDriver : public TMS570UartDriverComponentBase {
   public:

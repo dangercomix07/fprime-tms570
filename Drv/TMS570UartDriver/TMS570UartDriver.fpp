@@ -1,4 +1,4 @@
-module Drivers {
+module Drv {
     passive component TMS570UartDriver {
 
         @ Port invoked when the driver is ready to send/receive data

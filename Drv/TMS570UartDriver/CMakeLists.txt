@@ -29,7 +29,7 @@ set(SOURCE_FILES
 
 register_fprime_module()
 # Add the HALCoGen include directory for HL_sci.h
-target_include_directories(Drivers_TMS570UartDriver
+target_include_directories(Drv_TMS570UartDriver
     PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}/../../../tms570-hal/include
 )
